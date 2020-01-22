@@ -1,11 +1,8 @@
-# Introduction to Programming 2
-## Homework
-
-Virtual file system with FUSE
-
-The program was written on Linux.
-
-#### Compile:
-`g++ -Wall -l:libfuse.so.2 -o gd gd_filesystem.cpp gd_cache.cpp`
+# Virtual file system with FUSE
 
 The program implement inheritance, operator overload, file management, exception handling, and stl.
+Written on Linux.
+
+#### Compile with:
+`g++ -Wall -l:libfuse.so.2 -o gd gd_filesystem.cpp gd_cache.cpp`
+
